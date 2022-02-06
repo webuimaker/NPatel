@@ -1,0 +1,197 @@
+title: Neil Patel
+email: your-email@example.com
+logo: "/assets/images/logo.svg"
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+home:
+  feature:
+    enabled: true
+    background:
+    heading: "Path To Improved Productivity"
+    smallHeading: "FEATURE RICH"
+    description: Powerful features will help you stay efficient and organized. Here are some of the benefits of using <br> a time tracking system
+    items:
+    - heading: Custom Time Tracking
+      subHeading: POWERFUL AND EASY TO USE
+      body: "Customize the way you measure time to exactly match your needs. Intuitive and easy to setup to allow you to track time as detailed as you want.
+        <ul><li>Time tracking </li><li>Manual entry</li><li>Weekly timesheets</li><li>Mobile app on the go</li> </ul>"
+      highlightText: 
+      image:  "/assets/images/feature1.svg"
+      btnText: 
+      btnUrl: "#"
+    - heading: Powerful Reporting
+      subHeading: DESIGNED WITH YOU IN MIND
+      body: "Tailor made analytics with powerful filtering and grouping capabilities to generate insights and reports to support payroll, accounting, invoicing and other important business functions."
+      highlightText: 
+      image:  "/assets/images/feature2.png"
+      btnText: 
+      btnUrl: 
+    - heading: Always In Control
+      subHeading: FLEXIBLE YET POWERFUL
+      body: "Configure up to file levels of measuring time, setup budgets and estimates, track expenses to collect data that you can use to analyze your processes and execution of everyday activities."
+      highlightText: 
+      image:  "/assets/images/feature1.svg"
+      btnText: 
+      btnUrl: 
+  services:
+    enabled: true
+    background: "#fff"
+    heading: "<span>Automation for</span> Digital Marketers"
+    smallHeading: ""
+    description: He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, Forbes says he is one of the top ...
+    items:
+    - heading: >
+       discover
+       
+       **Our Services**
+      body: > 
+        He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, Forbes says he is one of the top 10
+
+        - He is a New York Times 
+        - He is a New York Times 
+        - He is a New York Times 
+      icon: "/assets/images/search.svg"
+    - heading: >
+       discover
+       
+       **Our Services**
+      body: > 
+        He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, Forbes says he is one of the top 10
+
+        - He is a New York Times 
+        - He is a New York Times 
+        - He is a New York Times 
+      icon: "/assets/images/search.svg"
+    - heading: >
+       discover
+       
+       **Our Services**
+      body: > 
+        He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, Forbes says he is one of the top 10
+
+        - He is a New York Times 
+        - He is a New York Times 
+        - He is a New York Times 
+      icon: "/assets/images/search.svg"
+  price:
+    enabled: true
+    background: ""
+    heading: "We are providing you best <br> ever plan"
+    smallHeading: "best Price"
+    description: "While we can customize your plan to suit your needs, most clients schedule regular services:"
+    items:
+    - heading: "Extended"
+      price: 12$
+      plan: month
+      body: Per month, paid annually, or $12 paid monthly
+      advantage:
+      - text: "Easy time tracking"
+      - text: "Apps for all your devices"
+      - text: Integrations that fit your workflow
+      - text: Insight into your projects and team
+      - text: Support from real humans
+      btnText: "Choose Plan"
+      btnUrl: "#"
+  subscribe:
+    enabled: true
+    background: "#F8F9FC"
+    heading: "Subscribe our Newslatter"
+    smallHeading: "what’s next?"
+    description: Get notification about tips, new product and exclusive promo news just for you.
+
+
+
+
+
+footer:
+  copyright: © 2021 Onix All rights reserved.
+  about: Build custom blogs, portfolios, ecommerce stores, and more with a flexible CMS. Experience the power of HTML, CSS.
+  leftcolHeading: Links
+  centercolHeading:  "About"
+  rightcolHeading: "Our Office"
+  leftcol:
+  - link: "/"
+    text: Home
+  - link: "/"
+    text: Services
+  - link: "/"
+    text: How It Works
+  - link: "/"
+    text: Tutorial
+  - link: "/"
+    text: Contact
+  centercol:
+  - text: Partners
+    link: "#home"
+    pageType: "same"
+  - text: Careers
+    link: "#how-its-works"
+    pageType: "same"
+  - text: Press
+    link: "#about"
+    pageType: "same"
+  - text: Community
+    link: "#about"
+    pageType: "Community"
+  rightcol:
+  - location: Indonesia
+    address: Jl. Griya Permata Hijau no D1 Purwomartani Kalasan 543881
+  - location: Tokyo
+    address: 35 Mandalay Road 13–37 Mandalay Towers Singapore 308215
+
+
+social:
+  enable: true
+  items:
+  - icon: "bx bxl-facebook"
+    title: "facebook"
+    link: "#"
+  - icon: "bx bxl-instagram"
+    title: "instagram"
+    link: "#"
+  - icon: "bx bxl-twitter"
+    title: "twitter"
+    link: "#"
+  - icon: "bx bxl-youtube"
+    title: "youtube"
+    link: "#"
+
+      
+
+ 
+
+sass:
+  sass_dir: _sass
+  style: compressed # possible values: nested expanded compact compressed
+
+# Build settings
+// theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

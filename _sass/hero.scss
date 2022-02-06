@@ -1,0 +1,152 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 120px 0 0px 0;
+    // background: linear-gradient(103.84deg, #0054C4 0%, #217CF7 100%);
+    background: #FAFBFD;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 170.19%;
+    color: #1E1E1E;
+    .hero-inner{
+        position: relative;
+        z-index: 1;
+    }
+
+    .text-hero{
+      position: relative;
+      padding-top: 35%;
+      &::before{        
+        background: #FDC412;
+        width: 287px;
+        left: -21%;
+        content: "";
+        position: absolute;
+        top: 20%;
+        height: 100%;
+      }
+    }
+
+    h1 {   
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 170.19%;
+        margin: 20px 0;
+        color: #1E1E1E;
+        position: relative;
+        span{
+          font-weight: 400;
+        }
+      }
+
+      h6{
+
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 170.19%;
+        /* identical to box height, or 48px */
+        letter-spacing: 1.15em;
+        text-transform: uppercase;
+        color: #1E1E1E;
+        position: relative;
+        span{
+          color: #FDC412;
+        }
+      }
+      p{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 163%;
+        color: #1E1E1E;
+        opacity: 0.7;
+      }
+      .hero-img{
+          padding: 0px 40px 0px 0px;
+          position: relative;
+
+      }
+
+      .btn-hero{
+        background: #FFFFFF;
+        box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.15);
+        position: relative;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 170.19%;
+        /* identical to box height, or 51px */
+        color: #1E1E1E;
+        text-decoration: none;
+        border-radius: 0px;
+
+        span{
+          font-weight: 400;
+        }
+
+        &:hover{
+          color: #FDC412;
+        }
+      }
+  }
+  
+  @media (max-width: 991px) {
+    #hero {
+      text-align: center;
+    }
+    #hero .btn + .btn {
+      margin: 0 10px;
+    }
+    #hero .hero-img {
+      text-align: center;
+    }
+    #hero .hero-img img {
+      width: 60%;
+    }
+  }
+  @media (max-width: 768px) {
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+    #hero .hero-img img {
+      width: 70%;
+    }
+  }
+  @media (max-width: 575px) {
+    #hero {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      .hero-img{
+        &::before{
+          top: 40px;
+          width: 85%;
+          left: 30px;
+        }
+        img {
+          width: 90%;
+        }
+      }
+
+    }
+
+    
+
+
+  }
+  

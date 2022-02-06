@@ -1,0 +1,13 @@
+main:
+  - name: Home                                             
+    url: "#features"
+  - name: About
+    url: ""
+  - name: Service
+    url: ""
+  - name: Portfolio
+    url: ""
+  - name: Contact
+    url: ""
+  - name: Blog
+    url: ""
