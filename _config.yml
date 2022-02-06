@@ -48,38 +48,46 @@ home:
     description: He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, Forbes says he is one of the top ...
     items:
     - heading: >
-       discover
-       
-       **Our Services**
+       <span> discover</span>       
+       Our Services
       body: > 
         He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, Forbes says he is one of the top 10
-
-        - He is a New York Times 
-        - He is a New York Times 
-        - He is a New York Times 
-      icon: "/assets/images/search.svg"
+        <ul>
+          <li>He is a New York Times </li>
+          <li>He is a New York Times </li>
+          <li>He is a New York Times </li>
+        </ul>
+      icon: "/assets/images/search.png"
     - heading: >
-       discover
-       
-       **Our Services**
+       <span> discover</span>       
+       Our Services
       body: > 
         He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, Forbes says he is one of the top 10
-
-        - He is a New York Times 
-        - He is a New York Times 
-        - He is a New York Times 
-      icon: "/assets/images/search.svg"
+        <ul>
+          <li>He is a New York Times </li>
+          <li>He is a New York Times </li>
+          <li>He is a New York Times </li>
+        </ul>
+      icon: "/assets/images/file.png"
     - heading: >
-       discover
-       
-       **Our Services**
+       <span> discover</span>       
+       Our Services
       body: > 
         He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, Forbes says he is one of the top 10
-
-        - He is a New York Times 
-        - He is a New York Times 
-        - He is a New York Times 
-      icon: "/assets/images/search.svg"
+        <ul>
+          <li>He is a New York Times </li>
+          <li>He is a New York Times </li>
+          <li>He is a New York Times </li>
+        </ul>
+      icon: "/assets/images/chart.png"
+  contact:
+    enabled: true
+    background: "#FAFBFD"
+    heading: "<span>Book a</span> Discovery Call"
+    smallHeading: ""
+    description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    btnText: "yes, i want to <strong>work</strong> with <strong>neil</strong>"
+    btnUrl: "#"
   price:
     enabled: true
     background: ""
