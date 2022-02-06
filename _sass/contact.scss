@@ -1,4 +1,30 @@
 .contact{    
     background: #FAFBFD;
     padding: 120px 0px;
+
+    .section-title{
+        position: relative;
+        margin: 0px;
+        h2{
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 121.69%;
+            color: #1E1E1E;
+            position: relative;
+
+            span{
+                font-weight: 400;
+                display: block;
+            }
+
+            z-index: 9;
+        }
+
+        .contact-img{
+            position: absolute;
+            max-width: 90%;
+        }
+    }
 }

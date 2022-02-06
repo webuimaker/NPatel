@@ -3,33 +3,20 @@
 {% if data.enabled %}    
     <section id="contact" class="section contact" style="background-color: {{data.background}};">
         <div class="container">  
-          <div class="section-title">
-            <h6>{{data.smallHeading}}</h6>
-            <h2>{{data.heading}}</h2>
-            <p>{{data.description}}</p>
-          </div>
-
-
-          <div class="row content row-cols-1 row-cols-sm-2 row-cols-md-3"> 
-          {% for item in data.items %} 
-            <div class="col">
-                <div class="service-box">  
-                    <div class="service-header d-flex">                        
-                        <div class="icon">
-                            <img src="{{item.icon}}" alt="{{item.heading}}" >                        
-                        </div> 
-                        <h5>{{item.heading}}</h5> 
-                    </div>  
-                   <div class="service-body">
-                    {{item.body}}
-                   </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5">
+                    <div class="section-title d-flex justify-content-center align-items-center">
+                      <h2>{{data.heading}}</h2>
+                      <img src="{{data.image}}" class="contact-img"  alt="{{data.heading}}">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    {{data.description}}
+                    <p class="mt-5"><a href="{{ databtnUrl }}" class="btn btn-hero">{{ data.btnText }}</a></p>
+                    
+                    
                 </div>
             </div>
-            {% endfor %}   
-        </div>
-
-
-
   
         </div>
       </section><!-- End App Features Section -->

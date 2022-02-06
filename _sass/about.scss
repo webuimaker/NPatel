@@ -1,0 +1,36 @@
+.about{
+    .section-title{
+        h2{
+            span{
+                display: inline-block;
+            }
+        }
+    }
+
+    .body-content{
+        h4{
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 170.19%;
+            /* or 61px */
+
+            text-transform: capitalize;
+
+            color: #1E1E1E;
+        }
+        p{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 170%;
+            /* or 41px */
+
+            letter-spacing: 0.07em;
+
+            color: #727272;
+        }
+    }
+}

@@ -1,10 +1,66 @@
+{% assign foot = site.footer %}
 
-<footer class="footer" id="footer">
-  <div class="container">
-    <h1>Footer</h1>
-  </div>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-5 my-4 footer">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <a href="#hero" class="navbar-brand scrollto"><img src="{{site.logo}}" alt="logo" class="img-fluid"></a>
+        </div>
+        <div class="col-md-10">
+            <div class="subscribe ms-auto">
+              <div class="d-flex w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Subscribe to our Newsletter</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Subscribe to our Newsletter">
+                <button class="btn btn-primary" type="button"><i class="far fa-long-arrow-right"></i></button>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="row mt-5 mb-3">
+        <div class="col-md-8 d-flex align-items-center">
+          
+            <ul class="foot-link">     
+              {% for item in site.data.menu.main %}
+              {% if item.child %}
+              <li class="dropdown">
+                  <a href="{{ item.url }}"><span>{{ item.name }}</span> <i class="bi bi-chevron-down"></i></a>
+                  <ul>
+                      {% for childitem in item.child  %}
+                              <li><a href="{{ childitem.url }}">{{ childitem.name }}</a></li>
+                          {% endfor %}
+                  </ul>
+              </li>
+                   
+                  {% else %}
+                      <li><a class="nav-link scrollto {% if item.url == page.url %} active {% endif %}" href="{{ item.url }}">{{ item.name }}</a></li>  
+              {% endif %}
+          {% endfor %}  
+
+            
+              </ul>
+        
+        </div>
     
-</footer>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex ms-auto social-links">
+             
+          {% for socials in site.social.items %}
+          <li class="ms-3"><a href="{{socials.link}}" title="{{socials.title}}" class="{{socials.title}}"><i class="{{socials.icon}}"></i></a></li>
+          {% endfor %}
+        </ul>
+
+      </div>
+      
+    <div class="row">
+      <div class="col">
+       
+        <span class="text-muted">&copy; 2021 Company, Inc</span>
+      </div>
+    </div>
+
+    </div>
+
+  </footer>
     
     
     
