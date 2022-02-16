@@ -200,6 +200,7 @@ body {
   padding: 40px;
   .service-header{
     margin-bottom: 30px;
+    min-height: 11%;
   }
   .icon{
     border-radius: 5px;
@@ -500,6 +501,8 @@ color: #1E1E1E;
   .features .image img {
     max-width: 80%;
   }
+
+  
 }
 @media (max-width: 667px) {
   .features .image img {

@@ -14,50 +14,48 @@ home:
   services:
     enabled: true
     background: "#fff"
-    heading: "<span>Automation for</span> Digital Marketers"
+    btnText: "yes, i want to <strong>work</strong> with <strong>neil</strong>"
+    btnUrl: "#"
+    heading: "<span>Need help</span> with implementing Software and Automating Business Process?"
     smallHeading: ""
-    description: He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, Forbes says he is one of the top ...
+    description: >
+     All successful businesses in every industry are continually investing in improving their business processes and implementing software to stay current and get ahead of their competition.<br>
+     
+     Are you thinking of implementing a software into your business, or are you in the middle of a software project? Thinking of documenting or improving your business processes?<br>
+
+     If either of those questions apply to you, book a 30 minute strategy call, and let's discuss how I can help. We will go over your current business and I will walk you through my methodology and how it can help you achieve your goals no matter where you are in the digital transformation journey.
     items:
     - heading: >
-       <span> discover</span>       
-       Our Services
+       <span> IT </span>       
+       Strategy
       body: > 
-        He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, Forbes says he is one of the top 10
-        <ul>
-          <li>He is a New York Times </li>
-          <li>He is a New York Times </li>
-          <li>He is a New York Times </li>
-        </ul>
+        Are you looking to reinvent and strategically reposition your business in today’s digital economy? Are you aiming to align technology and operations with your business vision? I help business owners and executives develop a plan, and set goals for how technologies will be implemented and used to meet key business objectives. We will define and prioritize your IT initiatives, and outline steps you have to take to turn your vision into a reality. As a result you will have a well thought out technology program that, when executed, will help you drive value, achieve competitive advantages, and improve customer experiences. Book a call, and let's see how I can help!	
       icon: "/assets/images/search.png"
     - heading: >
-       <span> discover</span>       
-       Our Services
+       <span> Business</span>       
+       Process Improvement
       body: > 
-        He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, Forbes says he is one of the top 10
-        <ul>
-          <li>He is a New York Times </li>
-          <li>He is a New York Times </li>
-          <li>He is a New York Times </li>
-        </ul>
+        Would you like to get the most out of your time and resources? I can help you assess and understand the current state of your business, and discover the processes that need attention the most. Measure performance, and compare it against your goals and benchmarks to identify areas of improvement. Optimize and standardize critical processes to maximize the productivity and efficiency of the work performed in your business. This will give you the ability to meet a greater demand, and consistently provide better customer experience. Book a time in my calendar and we can discuss how I can help in your problematic areas!
       icon: "/assets/images/file.png"
     - heading: >
-       <span> discover</span>       
-       Our Services
+       <span> Software </span>       
+       Projects
       body: > 
-        He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, Forbes says he is one of the top 10
-        <ul>
-          <li>He is a New York Times </li>
-          <li>He is a New York Times </li>
-          <li>He is a New York Times </li>
-        </ul>
+        Do you need help executing your software projects? Want to know if your project plan is sound, if your team is capable of executing the project, or if your project execution is set up to deliver a top quality product on time, and within the budget? Are you making the best choice for technologies to solve your business problems; should you buy or build a product? Are your requirements defined properly, and is your design ready to move into production? All of these are important questions to consider when executing a software project. Book a call and we can discuss your project, as well as how to ensure it's setup for success!
       icon: "/assets/images/chart.png"
   contact:
-    enabled: true
+    enabled:
     background: "#FAFBFD"
     image: "/assets/images/book.png"
     heading: "<span>Book a</span> Discovery Call"
     smallHeading: ""
-    description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    description: >
+     All successful businesses in every industry are continually investing in improving their business processes and implementing software to stay current and get ahead of their competition.<br>
+     
+     Are you thinking of implementing a software into your business, or are you in the middle of a software project? Thinking of documenting or improving your business processes?<br>
+
+     If either of those questions apply to you, book a 30 minute strategy call, and let's discuss how I can help. We will go over your current business and I will walk you through my methodology and how it can help you achieve your goals no matter where you are in the digital transformation journey.
+
     btnText: "yes, i want to <strong>work</strong> with <strong>neil</strong>"
     btnUrl: "#"
   about:

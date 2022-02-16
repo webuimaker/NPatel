@@ -115,18 +115,25 @@
     }
   }
   @media (max-width: 768px) {
-    #hero h1 {
-      font-size: 28px;
-      line-height: 36px;
+    #hero{
+      h1 {
+        font-size: 28px;
+        line-height: 36px;
+      }
+      h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+      }
+      .hero-img img {
+        width: 70%;
+      }
+      .text-hero{
+        text-align: left;
+        padding-top: 10%;
+      }
     }
-    #hero h2 {
-      font-size: 18px;
-      line-height: 24px;
-      margin-bottom: 30px;
-    }
-    #hero .hero-img img {
-      width: 70%;
-    }
+    
   }
   @media (max-width: 575px) {
     #hero {

@@ -7,13 +7,12 @@
             <h6>{{data.smallHeading}}</h6>
             <h2>{{data.heading}}</h2>
             <p>{{data.description}}</p>
+            <p class="mt-5"><a href="{{ databtnUrl }}" class="btn btn-hero">{{ data.btnText }}</a></p>
           </div>
-
-
           <div class="row content row-cols-1 row-cols-sm-2 row-cols-md-3"> 
           {% for item in data.items %} 
             <div class="col">
-                <div class="service-box">  
+                <div class="service-box h-100">  
                     <div class="service-header d-flex">                        
                         <div class="icon">
                             <img src="{{item.icon}}" alt="{{item.heading}}" >                        
