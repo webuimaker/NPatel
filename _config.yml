@@ -64,15 +64,29 @@ home:
     heading: "<span>Why</span> ME?"
     exp: 9
     image: "/assets/images/about.png"
-    description: "He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, Forbes says he is one of the top ..."
+    description: "My name is Gordan Miklausevic. I am a Certified Business Analysis Professional with 24 years of experience in the software industry, designing and implementing solutions in a variety of businesses ranging from engineering, large producers, and supply chain, to fintech, health, insurance, and retail, including SaaS startups."
     body: | 
-      <h4>yes, i want to <strong>work</strong> with <strong> neil </strong> </h4> 
+      <p>My approach in helping businesses achieve business objectives is based on utilizing my business acumen and technical skills to identify the core problem, propose the solution that best fits your exact needs, and oversee implementation to realize the benefits. I always address the following three areas to find the largest opportunity for improvement:</p>
+      <ul>
+        <li>Leveraging data to measure performance and identify underlying issues</li>
+        <li>Optimizing and automating primary processes to improve data quality and increase efficiency</li>
+        <li>Building customer facing solutions to scale and improve customer experience</li>
+      </ul>
+      <h4>My core competencies are in fields of <strong>IT strategy</strong>, <strong>business</strong> process improvement, and <strong>software project execution</strong>. I specialize in:</h4> 
 
-      <p>He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, </p>
-
-      <h4>yes, i want to <strong>work</strong> with <strong>neil </strong> </h4> 
-
-      <p>He is a New York Times Bestselling author. The Wall Street Journal calls him a top influencer on the web, </p> 
+      <ul>
+        <li>Aligning technology initiatives to business objectives</li>
+        <li>Developing a technology roadmap</li>
+        <li>Measuring performance</li>
+        <li>Building Management Dashboards</li>
+        <li>Process optimization and automation</li>
+        <li>System integration</li>
+        <li>Defining project vision</li>
+        <li>Specifying conceptual solution</li>
+        <li>Project management</li>
+        <li>Software implementation and change management</li>
+      </ul>     
+      <h4>Schedule a <strong>call</strong> and see how I can help.</h4> 
   subscribe:
     enabled: true
     background: "#F8F9FC"
