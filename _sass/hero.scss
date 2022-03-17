@@ -5,7 +5,7 @@
     width: 100%;
     position: relative;
     overflow: hidden;
-    padding: 120px 0 0px 0;
+    padding: 105px 0 0px 0;
     // background: linear-gradient(103.84deg, #0054C4 0%, #217CF7 100%);
     background: #FAFBFD;
     font-family: Raleway;
@@ -21,14 +21,14 @@
 
     .text-hero{
       position: relative;
-      padding-top: 35%;
+      padding-top: 20%;
       &::before{        
         background: #FDC412;
-        width: 287px;
+        width: 175%;
         left: -21%;
         content: "";
         position: absolute;
-        top: 20%;
+        top: 14%;
         height: 100%;
       }
     }
@@ -37,13 +37,14 @@
         font-family: Raleway;
         font-style: normal;
         font-weight: 700;
-        font-size: 64px;
-        line-height: 170.19%;
+        font-size: 55px;
+        line-height:1.1em;
         margin: 20px 0;
         color: #1E1E1E;
         position: relative;
         span{
           font-weight: 400;
+          font-size: 48px;
         }
       }
 

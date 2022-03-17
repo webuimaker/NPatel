@@ -2,6 +2,7 @@
 # General
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 $heading : #152C5B;
 $primary: #2D6BCF;
@@ -12,7 +13,8 @@ $white: #fff;
 $black: #000;
 $yellow: #FDC412;
 
-$bodyFont           : 'Roboto', sans-serif;
+// $bodyFont           : 'Roboto', sans-serif;
+$bodyFont           : 'Poppins', sans-serif;
 $headingFont        : 'Raleway', sans-serif;
 $specialFont        : "";
 $codeFont           : "";
@@ -21,8 +23,8 @@ body {
     font-family:  $bodyFont;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 180%;
+    font-size: 18px;
+    line-height: 1.6em;
     /* or 43px */
     // text-align: center;
     /* Medium */
@@ -114,8 +116,8 @@ body {
         font-family: Raleway;
         font-style: normal;
         font-weight: 700;
-        font-size: 64px;
-        line-height: 170.19%;
+        font-size: 48px;
+        line-height: 1.2em;
         color: #1E1E1E;
         span{
           font-weight: 400;
@@ -125,7 +127,7 @@ body {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 26px;
+        font-size: 18px;
         line-height: 163%;
         color: #1E1E1E;
         opacity: 0.7;
@@ -200,7 +202,7 @@ body {
   padding: 40px;
   .service-header{
     margin-bottom: 30px;
-    min-height: 11%;
+    // min-height: 11%;
   }
   .icon{
     border-radius: 5px;
