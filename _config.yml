@@ -14,7 +14,7 @@ home:
   services:
     enabled: true
     background: "#fff"
-    btnText: "yes, i want to <strong>work</strong> with <strong>neil</strong>"
+    btnText: "yes, i want to <strong>work</strong> with <strong>Gordan Miklausevic</strong>"
     btnUrl: "#"
     heading: "<span>Need help</span> with implementing Software and Automating Business Process?"
     smallHeading: ""
@@ -56,7 +56,7 @@ home:
 
      If either of those questions apply to you, book a 30 minute strategy call, and let's discuss how I can help. We will go over your current business and I will walk you through my methodology and how it can help you achieve your goals no matter where you are in the digital transformation journey.
 
-    btnText: "yes, i want to <strong>work</strong> with <strong>neil</strong>"
+    btnText: "yes, i want to <strong>work</strong> with <strong>Gordan Miklausevic</strong>"
     btnUrl: "#"
   about:
     enabled: true
