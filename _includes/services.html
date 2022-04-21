@@ -3,10 +3,10 @@
 {% if data.enabled %}    
     <section id="services" class="section services" style="background-color: {{data.background}};">
         <div class="container">  
-          <div class="section-title">
+          <div class="section-title col-12 col-md-9">
             <h6>{{data.smallHeading}}</h6>
             <h2>{{data.heading}}</h2>
-            <p>{{data.description}}</p>
+            <p class="text-justify">{{data.description}}</p>
             <p class="mt-5"><a href="{{ databtnUrl }}" class="btn btn-hero">{{ data.btnText }}</a></p>
           </div>
           <div class="row content row-cols-1 row-cols-sm-2 row-cols-md-3"> 
