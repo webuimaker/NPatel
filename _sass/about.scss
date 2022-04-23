@@ -12,20 +12,18 @@
             font-family: $headingFont;
             font-style: normal;
             font-weight: normal;
-            font-size: 30px;
-            line-height: 1.2em;
+            font-size: 20px;
+            line-height: 140%;
             /* or 61px */
-
             text-transform: capitalize;
-
-            color: #1E1E1E;
+            color: #727272;
         }
         p{
             font-family: $bodyFont;
             font-style: normal;
             font-weight: normal;
-            font-size: 24px;
-            line-height: 170%;
+            font-size: 20px;
+            line-height: 140%;
             /* or 41px */
 
             letter-spacing: 0.07em;
