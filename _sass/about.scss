@@ -9,26 +9,22 @@
 
     .body-content{
         h4{
-            font-family: $headingFont;
+            font-family: "Poppins",sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 18px;
-            line-height: 140%;
-            /* or 61px */
-            text-transform: capitalize;
-            color: #727272;
+            line-height: 163%;
+            color: #1E1E1E;
+            opacity: 0.7;
         }
         p{
-            font-family: $bodyFont;
+            font-family: "Poppins",sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 18px;
-            line-height: 140%;
-            /* or 41px */
-
-            letter-spacing: 0.07em;
-
-            color: #727272;
+            line-height: 163%;
+            color: #1E1E1E;
+            opacity: 0.7;
         }
     }
 }
